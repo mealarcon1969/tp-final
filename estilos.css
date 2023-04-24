@@ -1,3 +1,6 @@
+/*Hacer referencia al tipo de fuente usar:
+ font-family: 'Roboto', sans-serif;  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 .myfont {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -6,7 +9,15 @@
     text-align: justify;
 }
 nav i {
-    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
     color: rgb(247, 148, 29);
-    
+       
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.693);
+    border-radius: 16px;
+}
+.hero {
+    margin: 25px;
 }
